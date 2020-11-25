@@ -8,19 +8,29 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 const negrita = document.getElementsByClassName('text-container');
-document.body.appendChild(negrita);
 
-document.addEventListener('mouseover', () => {
-  negrita.style.fontWeight = 'bold' ;
-  negrita.style.backgrondColor = 'deeppink';
-});
+
+//negrita.addEventListener('mouseover', () => {
+  //negrita.style.fontWeight = 'bold' ;
+  //negrita.style.backgrondColor = 'deeppink';
+//});
 
   
-//negrita.addEventListener("mouseover", () =>{   
+negrita.addEventListener("mouseover", () =>{   
    
-    //style.fontWeight = "bold";
+style.fontWeight = "bold";
 
-//});
+ 
+});
+
+
+negrita.addEventListener("mousenter", () => {
+
+    style.fontWeight="";
+
+    
+
+});
 
 
 });
