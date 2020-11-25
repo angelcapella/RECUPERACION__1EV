@@ -24,7 +24,7 @@ style.fontWeight = "bold";
 });
 
 
-negrita.addEventListener("mousenter", () => {
+negrita.addEventListener("mouseenter", () => {
 
     style.fontWeight="";
 
