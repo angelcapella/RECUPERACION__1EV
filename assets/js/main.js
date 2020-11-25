@@ -26,7 +26,7 @@ style.fontWeight = "bold";
 
 negrita.addEventListener("mouseenter", () => {
 
-    style.fontWeight="";
+    style.fontWeight="normal";
 
     
 
